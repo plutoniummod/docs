@@ -7,7 +7,7 @@ export default function HomePage() {
       <p className="text-fd-muted-foreground">
         You can open{' '}
         <Link
-          href="/docs"
+          href="/en/docs"
           className="text-fd-foreground font-semibold underline"
         >
           /docs
@@ -16,4 +16,21 @@ export default function HomePage() {
       </p>
     </main>
   );
+}
+
+export function generateStaticParams() {
+  return [
+    {
+      lang: 'en',
+    },
+    {
+      lang: 'de',
+    },
+    {
+      lang: 'es',
+    },
+    {
+      lang: 'fr',
+    },
+  ];
 }
