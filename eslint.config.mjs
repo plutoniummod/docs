@@ -14,7 +14,6 @@ const compat = new FlatCompat({
 const eslintConfig = [
   globalIgnores([
     '.next/*',
-    '.open-next/*',
     '.source/*',
     '.wrangler/*',
   ]),
