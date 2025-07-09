@@ -18,7 +18,7 @@ export function baseOptions(locale: string): BaseLayoutProps {
           Plutonium Docs
         </>
       ),
-      url: `/${locale}/docs`,
+      url: `/${locale}`,
     },
     links: [
       {

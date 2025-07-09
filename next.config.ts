@@ -9,7 +9,7 @@ const config: NextConfig = {
   reactStrictMode: true,
 
   // static export
-  // output: 'export',
+  output: 'export',
 };
 
 export default withMDX(config);
