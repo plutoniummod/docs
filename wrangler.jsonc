@@ -3,6 +3,21 @@
   "name": "docs",
   "compatibility_date": "2025-07-05",
   "assets": {
-    "directory": "out"
+    "directory": "out",
+    "not_found_handling": "404-page"
+  },
+  "routes": [
+    {
+      "pattern": "docs.plutonium.pw",
+      "custom_domain": true
+    }
+  ],
+  "workers_dev": false,
+  "preview_urls": false,
+  "env": {
+    "preview": {
+      "routes": [],
+      "preview_urls": true
+    }
   }
 }
