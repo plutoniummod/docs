@@ -1,0 +1,9 @@
+{
+  "title": "API",
+  "description": "Public API",
+  "icon": "Shapes",
+  "root": true,
+  "pages": [
+    "..."
+  ]
+}

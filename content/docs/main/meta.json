@@ -1,0 +1,9 @@
+{
+  "title": "General",
+  "description": "Plutonium documentation",
+  "icon": "House",
+  "root": true,
+  "pages": [
+    "..."
+  ]
+}

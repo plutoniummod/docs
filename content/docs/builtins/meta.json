@@ -1,0 +1,9 @@
+{
+  "title": "Builtins",
+  "description": "GSC builtins",
+  "icon": "Puzzle",
+  "root": true,
+  "pages": [
+    "..."
+  ]
+}
